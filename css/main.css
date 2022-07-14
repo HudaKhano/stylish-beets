@@ -1,14 +1,14 @@
 html {
   box-sizing: border-box;
   background-color: #c9b5ab;
-  line-height: 1.5
+  line-height: 1.5;
 }
 
-*, *before, *::after {
+*, *::before, *::after {
   box-sizing: inherit;
 }
 
-h1,h2 {
+h1, h2 {
   color: #3f1622;
   font-family: "PT Sans", sans-sans-serif;
   font-size: 1.5rem;
@@ -20,7 +20,7 @@ img {
 }
 
 nav ol {
-  list-style-type: : none;
+  list-style-type: none;
 }
 
 a {
@@ -36,15 +36,16 @@ nav ol li a {
 figcaption {
   font-family: "PT Serif", serif;
   font-style: italic;
-  font-size: 0.8rem;
+  font-size: .8rem;
   text-align: center;
 }
 
 .harvest {
-font-family: "PT Serif", serif;
-font-size: 1.125rem;
-font-weight: bold;
+  font-family: "PT Serif", serif;
+  font-size: 1.125rem;
+  font-weight: bold;
 }
+
 p {
   font-family: "PT Serif", serif;
   font-size: .8rem;
@@ -60,21 +61,24 @@ blockquote p {
 
 dl dt {
   font-family: "PT Serif", serif;
-  font-size: .8rem
+  font-size: .8rem;
   line-height: 1.5;
 }
 
 dl dd {
   font-family: "PT Serif", serif;
-  font-size: .8rem
+  font-size: .8rem;
 }
+
 strong {
   font-weight: normal;
 }
+
 footer {
   text-decoration: none;
   color: #8f2440;
 }
+
 a:hover {
   color: #222;
   text-decoration: none;
